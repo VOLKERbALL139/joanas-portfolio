@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Joana's Website</title>
+</head>
+<body>
+    <header class="container my-5">
+        <div class="nav row g-0 justify-content-between rounded sticky-top">
+            <!-- Logo-->
+            <div class="logo col-auto d-flex align-items-center ps-4">
+                <h2 class="fw-bold text-uppercase mb-0">Joana Vargas</h2>
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                        <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
+                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                      </svg>
+                </div>
+                <p class="mb-0">Digital Marketing Analyst</p>
+            </div>
+            <!-- Links-->
+            <nav class="menu col-auto d-flex align-items-stretch">
+                <a class="nav_link-act nav_link px-4 d-flex align-items-center text-center text-decoration-none" href="index.html">
+                    <div class="w-100">
+                        <span>Portfolio</span>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                            <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+                            <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="nav_link px-4 d-flex align-items-center text-center text-decoration-none" href="about_me.html">
+                    <div class="w-100">
+                        <span>About me</span>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                                <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="nav_link px-4 d-flex align-items-center text-center text-decoration-none" href="contact.html">
+                    <div class="w-100">
+                        <span>Contact</span>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </nav>
+        </div>
+        <!--Slider-->
+    <div class="row slider">
+        <div class="col">
+            <div class="carousel slide" data-bs-ride="carousel" id="slider">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./img/1-certificado.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/2-certificado.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button 
+                    type="button" 
+                    data-bs-target="#slider" 
+                    data-bs-slide-to="0" 
+                    class="active" 
+                    aria-current="true" 
+                    aria-label="slideshow 1">
+                    </button>
+                    <button 
+                    type="button" 
+                    data-bs-target="#slider" 
+                    data-bs-slide-to="1"
+                    aria-label="slideshow 2">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </header>
+    <main>
+        <div class="container">
+            <!--Portafolio-->
+            <div class="row portfolio g-0 px-4 mb-5 pb-4 rounded">
+                <div class="col">
+                    <h2 class="title text-center py-3">Portfolio</h2>
+                    <!--second element-->
+                    <div class="row galery mb-4">
+                        <div class="portfolio_text col rounded pb-3 fondo fondo2">
+                            <h3>PROPUESTA DE HELADOS</h3>
+                            <p class="my_justify">
+                                Se propone debido a que a pesar de que se encontraron sabores frutales no se encontró alguno que contenga picante, aunado a eso cabe mencionar que México se reconoce por ser un país con alto consumo de picante, desde los dulces hasta la comida, frutas o  bebidas.
+                            </p>
+                            <!--
+                                <p class="my_justify">
+                                    This analysis was performed in Google Sheets.
+                                </p>
+                            -->
+                            <div class="container">
+                                <div class="row justify-content-md-center">
+                                    <!--button-->
+                                    <div class="col-auto">
+                                        <a href="https://drive.google.com/file/d/1l0vBKUtPLJxLQwFfVhtQIyotVmur4Ql0/view?usp=drive_link" class="my_button rounded p-1" target="_blank">
+                                            <span >Slideshow</span>
+                                        </a>
+                                    </div>
+                                    <!--button-->
+                                    <div class="col-auto">
+                                        <a href="https://drive.google.com/file/d/1B8L2nAn7CBKgMxQVJL9yOMbCdLVjgtsH/view?usp=drive_link" class="my_button rounded p-1" target="_blank">
+                                            <span >Analysis</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--first element-->
+                    <div class="row galery mb-4">
+                        <div class="portfolio_text col rounded pb-3 fondo fondo1">
+                            <h3>Actividades del curso</h3>
+                            <p class="my_justify">
+                                En esta area deberas escribir las actividades de tus cusros 
+                            </p>
+
+                            <!--
+                                <p class="my_justify">
+                                This analysis was performed in Looker Studio.
+                            </p>
+                            -->
+                            
+                            <div class="container">
+                                <div class="row justify-content-md-center">
+                                    <!--button-->
+                                    <div class="col-auto">
+                                        <a href="https://drive.google.com/drive/folders/1WE2oL3jy1s20eP73G1GAPuXnNBQlxZJW" class="my_button rounded p-1" target="_blank">
+                                            <span >Concentrado</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container my-5">
+            <div class="nav row g-0 justify-content-between rounded">
+                <!-- Logo-->
+                <div class="logo col-auto d-flex align-items-center ps-4">
+                    <h2 class="fw-bold text-uppercase mb-0">Joana Vargas</h2>
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                            <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
+                            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                          </svg>
+                    </div>
+                    <p class="mb-0">Digital Marketing Analyst</p>
+                </div>
+            </div> 
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+<!--This Webside was made by Martin Munoz-->
+</html>
